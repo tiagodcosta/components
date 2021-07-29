@@ -12,7 +12,7 @@ function Accordion({ title, children }) {
   const toggleActive = () => {
     setActive(!active);
   };
-
+ 
   return (
     <section className="accordion">
       <button className="accordion__header" type="button" onClick={toggleActive} aria-label="Open accordion">

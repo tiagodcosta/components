@@ -1,3 +1,49 @@
+:root {
+  /* Old color schema */
+  --blue-dark: #08ABC2;
+  --blue-neon: #00aabb;
+  --blue-light: #ABDBE3;
+  --black: #000000;
+  --wheat: #F0C199;
+  --dim-gray: #3E3533;
+  --gray-dark: #545048;
+  --sienna: #8C6A3E;
+  --green-dark: #C1D743;
+  --orange: #F2B01E;
+  --red: #EE4645;
+ 
+  /* Color variables */
+
+  /* New color schema 02/06/2020 */
+  /* https://www.schemecolor.com/peace-at-last-color-scheme.php */
+  --blue-middle-green: #8DCDD2;
+  --blue-crystal: #ABDDE1;
+  --blue-columbia:  #C4E7EB;
+  --red-light: #FF6465; 
+  --orange-big-foot: #F1805F;
+  --yellow-banana: #F8E9B1;
+  --yellow-topaz: #FFD281;
+  --black-shade: #121212;
+  --white: #FCFCFC;
+
+  --color-primary: var(--blue-middle-green);
+  --color-primary-light: var(--blue-crystal);
+  --color-primary-lightest: var(--blue-columbia);
+  --color-secondary: var(--yellow-banana);
+  --color-secondary-dark: var(--yellow-topaz);
+  --color-text: var(--black-shade);
+  --color-text-light: var(--white);
+  --color-text-hover: var(--yellow-topaz);
+  --color-accent: var(--orange-big-foot);
+  --color-error: var(--red-light);
+
+  /* Typograph variables */
+  --font-family-global: 'Poppins', sans-serif;
+
+}
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
